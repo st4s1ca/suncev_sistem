@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{ 
+    background-image: url(images/pozadina.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family:'Quicksand', sans-serif ;
+}
+
+#main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+}
+
+a{
+    display: block;
+}
+
+#sunce{
+    width: 170px;
+    height: 600px;
+}
+#merkur{
+    width: 50px;
+    margin-right: 20px;
+}
+
+#venera{
+    width: 100px;
+    margin-right: 20px;
+}
+
+#zemlja{
+    width: 180px;
+    margin-right: 10px;
+}
+
+#mars{
+    width: 100px;
+    margin-right: 20px;
+}
+
+#jupiter{
+    width: 350px;
+    margin-right: 10px;
+    height: 350px;
+}
+
+#saturn{
+    width: 450px;
+    margin-right: 20px;
+}
+
+#uran{
+    width: 200px;
+    margin-right: 20px;
+}
+
+#neptun{
+    width: 130px;
+}
+
+#main a :hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+/*
+.naslov{
+    background-color: rgba(64, 32, 105, 0.6);
+    text-align: center;
+    border: 2px solid rgb(26, 17, 88);
+    color: beige;
+    margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.5%;
+}
+*/
+
+.naslov{
+    text-align: center;
+    color: beige;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Quicksand', sans-serif;
+    padding: 1%;
+}
+
+.slika{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+#saturn_slika{
+    width: 600px;
+    display: block;
+}
+
+/*
+font-family: 'Charis SIL', serif;
+font-family: 'Gentium Plus', serif;
+font-family: 'Quicksand', sans-serif;
+
+boje 
+rgb(64, 32, 105)
+rgb(26, 17, 88)
+*/
+
+.tekst
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    color: wheat;
+    background-color: rgba(64, 32, 105, 0.75);
+    text-align: center;
+    border: 2px solid rgb(26, 17, 88);
+    border-radius: 20px;
+    padding: 0 3%;
+    width: 70%;
+    margin: 0.7% auto;
+}
+.tekst2
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    color: wheat;
+    background-color: rgba(64, 32, 105, 0.75);
+    text-align: center;
+    border: 2px solid rgb(26, 17, 88);
+    border-radius: 20px;
+    padding: 0 3%;
+    width: 70%;
+    margin: 0.7% auto 9% auto;
+}
+
+
+footer{
+    background-color: rgb(64, 32, 105);
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+    color: wheat;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    border: 2px groove rgb(26, 17, 88);
+    padding: 0.6%;
+}
+
+
+
+footer a{
+    color: antiquewhite;
+    padding: 0.2%;
+}
+
+footer a:hover{
+    text-align: center;
+    background-color: rgb(26, 17, 88);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#galerija{
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    color: wheat;
+    background-color: rgba(64, 32, 105, 0.75);
+    text-align: center;
+    border: 2px solid rgb(26, 17, 88);
+    border-radius: 20px;
+    padding: 0 3% 1% 3%;
+    width: 70%;
+    margin: 0 auto 10% auto;
+}
+
+#container{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#forma{
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    color: wheat;
+    background-color: rgba(64, 32, 105, 0.75);
+    text-align: center;
+    border: 2px solid rgb(26, 17, 88);
+    border-radius: 20px;
+    width: 30%;
+    padding: 3%;
+    margin: 2%;
+}
+
+.slikaGalerija{
+    width:200px;
+    margin: 1% auto;
+    display: block;
+}
+
+#glavnaGalerija{
+    width: 45%;
+    margin: 0 auto;
+    display: block;
+}
+
+#slike{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#kontakt{
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    color: wheat;
+    background-color: rgba(64, 32, 105, 0.75);
+    text-align: right;
+    border: 2px solid rgb(26, 17, 88);
+    border-radius: 20px;
+    width: 30%;
+    padding: 3%;
+    margin: 2%;
+}
+#supersaturn{
+    width: 300px;
+    height: 79%;
+}
+
+#ss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width:600px){
+    #main{
+        flex-direction: column;
+    }
+}
+@media (max-width:600px){
+    body{
+        font-size: small;
+    }
+}
+
